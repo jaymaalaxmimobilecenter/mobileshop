@@ -149,7 +149,7 @@ section{
 .indicators{
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 170px;
   transform: translateX(-50%);
 }
 .indicators span{
@@ -427,6 +427,7 @@ label:hover {
   transition: .5s;
 }
 abbr{
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
@@ -482,11 +483,12 @@ line-height: 20PX;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: #98AFC7;
   
  }
  .slide-container{
   text-align: center;
+  align-items: center;
   font-size: 35px;
   font-weight: 500;
   max-width: 1120px;
@@ -501,13 +503,15 @@ line-height: 20PX;
  }
  .slide-content{
   margin: 0 40px;
+  align-items: center;
  }
  .card{
   border-radius: 30PX;
   width: 320PX;
   margin: 22PX;
-  margin-left: 50px;
+  margin-left: 358px;
   background-color: #FFF;
+  align-items: center;
  }
  .image-content,
  .card-image{
